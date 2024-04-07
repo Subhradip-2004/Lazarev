@@ -1,3 +1,11 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+
 
 
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
@@ -6,21 +14,28 @@
 margin: 0;
 padding: 0;
 font-family: "Montserrat";;
-box-sizing: border-box;
+-webkit-box-sizing: border-box;;
+        box-sizing: border-box;
 }
 html, body {
 height: 100vh;
 width: 100vw;
 }
 .container{
+    display: -webkit-box;
+    display: -ms-flexbox;
     display: flex;
-    align-items: center;
-    justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
     font-size: 60px;
     font-family:"Montserrat";
     text-transform: uppercase;
     background-color:black;
-    color: #111;
+    color: #fff;
     height: 100svh;
     width: 100%;
     padding: 5rem;
