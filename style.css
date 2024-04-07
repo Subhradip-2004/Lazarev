@@ -42,7 +42,7 @@ width: 100vw;
    
 }
 .container h1{
-    background-image: url(/textimg.webp);
+    background-image: url(./textimg.webp);
     background-size: cover;
     font-weight: 900;
     -webkit-text-fill-color: transparent;
